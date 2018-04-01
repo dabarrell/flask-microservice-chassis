@@ -15,7 +15,7 @@ def not_found(error=None):
     return resp
 
 @error_handlers.app_errorhandler(400)
-def error(error=None):
+def external_error(error=None):
     message = {
             'status': 400,
             'message': error.description,
@@ -26,7 +26,7 @@ def error(error=None):
     return resp
 
 @error_handlers.app_errorhandler(500)
-def error(error=None):
+def internal_error(error=None):
     message = {
             'status': 500,
             'message': 'Internal error: ' + error.description,

@@ -12,8 +12,8 @@ with io.open('flask_chassis/__init__.py', encoding='utf-8') as f:
 
 setup(
     name='Flask-Chassis',
-    version='0.1',
-    url='',
+    version=version,
+    url='https://github.com/dabarrell/flask-microservice-chassis',
     license='MIT',
     author='David Barrell',
     author_email='david@barrell.me',
