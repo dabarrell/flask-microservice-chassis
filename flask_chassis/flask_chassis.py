@@ -13,6 +13,11 @@ from .errorhandlers import error_handlers
 
 
 class FlaskChassis(object):
+    """
+    TODO: Chassis configuration - flags for whether redis/sql etc is used, whether \
+    to register error handlers
+    """
+
     external_config_checked: bool = False
     config_finalised: bool = False
     _redis_pool = None

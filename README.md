@@ -1,11 +1,11 @@
 # Flask Chassis
 
-Example chassis for Flask microservices - under development.
+Example chassis for Flask microservices. This is still very much in development.
 
-Handles the following cross-cutting concerns:
+Will handle the following:
 
-- Logging
-- Health checks
-- Metrics
-- Tracing
-- Externalised configuration
+- [ ] Logging
+- [x] Health checks
+- [ ] Metrics
+- [ ] Tracing
+- [x] Externalised configuration
